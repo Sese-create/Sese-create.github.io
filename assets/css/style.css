@@ -1,0 +1,205 @@
+body {
+    
+
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: pink;
+    font-family: Arial, sans-serif;
+    font-size: 1.5 em;
+    line-height: 1.6;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-image: url(../images/image8.jpg);
+    text-align: center;
+    padding: 2rem;
+}
+
+h1 {
+    color: burlywood;
+    font-family: "Fascinate Inline", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.first-p{
+    color: black;
+}
+nav {
+    background-color: plum;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    /* font-family: "Fascinate Inline", system-ui;
+  font-weight: 400;
+  font-style: normal; */
+}
+
+/* .nav-bar{
+    background-image: url(/assets/images/porfolio.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply; */
+
+/* } */
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    padding: 50px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 2rem 0;
+    font-size: larger;
+    font-weight: 700;
+    
+}
+
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* font-family: "Fascinate Inline", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+   */
+   font-weight: 900;
+}
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: plum;
+    color: black;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    font-weight: 600;
+    
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.project {
+    border: 3px solid black;
+    padding: 1rem;
+    border-radius: 20px;
+    background-color:plum;
+    
+    
+}
+
+.contact form {
+    display: grid;
+    gap: 1rem;
+
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 20px;
+   
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: burlywood;
+}
+
+.container h2, h3, p{
+    color: black;
+}
+
+.contact-section{
+    background-color: plum;
+    padding: 20px;
+    width: 90%;
+    padding-right: 5%;
+    border-radius: 20px;
+    border: 3px solid black;
+    font-family: "Fascinate Inline", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+input{
+    margin: 20px;
+    padding: 5px;
+    height: 5vh;
+
+
+}
+f
+.about-me{
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: auto;
+
+}
+.skills{
+    /* font-family: "Fascinate Inline", system-ui;
+  font-weight: 400;
+  font-style: normal; */
+}
+.picture{
+width: 250px;
+border: solid 2px white;
+border-radius: 50%;
+padding: 12px;
+}
+ 
+.pt-mono-regular {
+    font-family: "PT Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .bold{
+    font-weight: 600;
+  }
